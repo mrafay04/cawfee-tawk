@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <div class="mainbook">
+        <nav>
+            <ol>
+            <form action="text" method="post">
+                <li>
+                <label class="bookings" style="font-size: large; line-height: 3px;" for="Name">Enter your name </label>
+                <input class="bookings" type="text" id="name" placeholder="Enter your name" required>
+            </li>
+            <li>
+                <label class="bookings" style="font-size: large; line-height: 3px;" for="email">Enter your email </label>
+                <input class="bookings" type="email" id="email" placeholder="Enter your email" required>
+            </li>
+            <li>
+                <label class="bookings" style="font-size: large; line-height: 3px;" for="Phone number">Enter your Phone number </label>
+                <input class="bookings" type="text" id="Phone number" placeholder="Enter your Phone number" required>
+            </li>
+            <li>
+                <label class="bookings" for="time">Select time</label>
+                <select class="bookings" name="time" id="time" required>
+                    <option value="time">5:00 pm</option>
+                    <option value="time">6:00 pm</option>
+                    <option value="time">7:00 pm</option>
+                    <option value="time">8:00 pm</option>
+                    <option value="time">9:00 pm</option>
+                    <option value="time">10:00 pm</option>
+                </select>
+           
+        </li>
+        <div>
+            <button style="margin-top: 60px;margin-left: 170px;padding: 15px;" type="submit">Submit</button>
+        </div>
+            </form>
+        </ol>
+        </nav>
+        <div class="primarybook">
+            <form action="post" method="post">
+                <textarea style="font-size: 15px; border: solid;" name="comment" id="comment" cols="57" rows="10">Leave your comment</textarea>
+                <button style="margin-left: 210px; margin-top: 30px; padding: 17px;" type="submit">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

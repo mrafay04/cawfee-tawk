@@ -1,0 +1,397 @@
+.heading1{
+    
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Doodle+Shadow&display=swap');
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    font-size: 45px;
+    text-decoration:overline ;
+    letter-spacing: 5px;
+    }
+    
+  .body{
+      height: 500px;
+      background: linear-gradient(
+          to right,
+          #8a7e76 50%,        
+          #391a06 100%        
+      
+           
+  
+  
+      );
+      
+  }
+  *.btn{
+      position: relative;
+      top: 40px;
+      left: 305px;
+      
+      
+      color: aliceblue;                
+          background-color: #8a7e76 ;    
+      border-color: #8a7e76 ;
+      border-color:#391a06;
+      padding: 10px;
+      border-radius: 15px;
+      border-style: dotted;
+      letter-spacing: 1px;
+  
+      
+  
+                     
+  }
+  *.btn:hover{
+      color: yellow;
+      
+  }
+  .heading2{
+      position: relative;
+      top: 150px;
+      text-align: center;
+      color: #dbcb92 ;
+      color: rgb(227, 234, 240);
+      font-size: 35px;
+      
+      font-style: italic;
+      text-decoration: underline ;
+      letter-spacing: 3px;
+      
+  }
+  .heading3{
+      position: relative;
+      top: 160px;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 60px;
+      color: #dbcb92 ;
+      letter-spacing: 3px;
+  }
+  .para{
+      position: relative;
+      top: 170px;
+      text-align: center;
+      font-size: 32px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .btn1{
+      position: relative;
+      top: 150px;
+      left: 765px;
+      border-color:#391a06;
+      padding: 15px;
+      border-radius: 15px;
+      background-color: #8a7e76 ;
+      color: aliceblue;
+      letter-spacing: 2px;
+  }
+  .btn1:hover{
+      color: yellow;
+  }
+  *#link{
+      position: relative;
+      bottom: 440px;
+      float: right;
+      left: -80px;
+      padding: 30px;
+      
+  }
+  *#link:hover{
+      color: #dbcb92;
+  }
+  *.BTNS:hover{
+  color: yellow;
+  }
+  *,
+  *:before
+  *:after{
+      pad: 0;
+      margin: 0;
+      margin: 0;
+       
+  }
+  a:after{
+      content: "";
+  position: absolute;
+  background-color: #dbcb92;
+  height: 2px;
+  width: 0%;
+  left: 0;
+  bottom: 10px;
+  transition: 0.3s;
+  }
+  a:hover:after{
+  width: 100%;
+  
+  }
+  
+  *#BODY{
+      
+          height: 500px;
+          background: linear-gradient(
+              to right,
+              #8a7e76 50%,        
+              #391a06 100%        
+          
+               
+      
+      
+          );
+          
+      
+  }
+  
+  .bodyimg1{
+      position: relative;
+      top: 100px;
+      size-adjust: 0px;
+      height: 300px;
+      width: 400px;
+      border-radius: 325px;
+      border: 4px solid;
+      border-color: aliceblue;
+      left: 392px;
+  
+      
+  }
+  .reviews{
+      border: 2px solid;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 650px;
+      border-radius: 15px;
+      line-height: 2px;
+      
+      
+  }
+  .client{
+      position: relative;
+      top: 210px;
+      width: 295px;
+      border: 3px solid;
+      height: 10px;
+      border-radius: 15px;
+  }
+  #star1{
+  position: relative;
+  left: 19px;
+  padding: 17px;   
+  }
+  .profile{
+      position: relative;
+      left: 97px;
+      top: 30px;
+      width: 100px;
+      
+  }
+  .review1{
+      border: 2px solid;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 650px;
+      border-radius: 15px;
+      line-height: 2px;
+      background-color: aliceblue;
+  }
+   .client1{
+      position: relative;
+      top: 210px;
+      width: 295px;
+      
+      height: 20px;
+      border-radius: 15px; 
+  }
+  .name{
+      position: relative;
+      top: 85px;
+      text-align: center;
+      letter-spacing: 2px;
+  }
+  
+  
+  
+  .page5{
+      background: linear-gradient(
+          to right,
+          #9f9984 0%,
+          #dcbc48 50%
+      );
+  }
+  .reviewhead{
+      position: relative;
+      left:45px;
+      bottom: -390px;
+      font-size: 30px;
+      letter-spacing: 2px;
+      text-decoration: underline;
+  }
+  
+  .comment{
+      position: relative;
+      top: 70px;
+      left: 3px;
+  }
+  .comment1{
+      position: relative;
+      top: 70px;
+  }
+  .stars{
+      position: relative;
+      top: 80px;
+       left: 1000px; 
+       
+      
+  }
+  .menu{
+      position: relative;
+      left: 10px;
+      border:  3px solid;
+      height: 900px;
+      width: 800px;
+      border-color: aliceblue;
+      border-radius: 15px;
+      background-color: rgb(242, 242, 242);
+  }
+  .items{
+      position: relative;
+      top: 70px;
+      border: 2px solid;
+      
+      height: 100px;
+      line-height: 2px;
+      color: black;
+      background: linear-gradient(
+          
+              to right,
+              #8a7e76 50%,        
+              #391a06 100%        
+          
+               
+      
+      
+          );
+  }
+  .menuimg{
+      float: right;
+      position: relative;
+      left: 750px;
+      bottom: 710px;
+      border-radius: 535px;
+      border-color: black;
+      border: 2px solid;
+  }
+  .name{
+      position: relative;
+      left: 1150px;
+      top: -310px;
+      text-decoration: overline;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 30px;
+      
+      
+      
+  }
+  .page7{
+      background: linear-gradient(
+          
+              to right,
+              #8a7e76 50%,        
+              #391a06 100%        
+          
+               
+      
+      
+          );
+      
+  }
+  .types{
+      position: relative;
+      left: 19px;
+      top: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-style: normal;
+  }
+  .price{
+      bottom: 30px;
+      position: relative;
+      text-align: right;
+      right: 21px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: aliceblue;
+  
+  }
+  .buttons{
+      position: relative;
+      left: 595px;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #dbcb92;
+      transition: 0.2s;
+      color: black;
+      letter-spacing: 2px;
+      
+  }
+  *.buttons:hover{
+      color:#dbcb92
+  }
+  .review2{
+      border: 2px solid;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 1150px;
+      bottom: 695px;
+      border-radius: 15px;
+      line-height: 2px;
+      background-color: aliceblue;
+      
+  
+      
+      
+  }
+  .review3{
+      border: 2px solid;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 1150px;
+      bottom: 695px;
+      border-radius: 15px;
+      line-height: 2px;
+      background-color: aliceblue;
+      
+      
+  }
+  .mainbook{
+      border: 2px solid;
+      height: 600px;
+      position: relative;
+      top: 50px;
+      width: 500px;
+      left: 550px;
+      background-color: black;
+      color: aliceblue;
+  }
+  .primarybook{
+      border: 1px solid;
+      border-collapse: 2px;
+      height: 200px;
+      position: relative;
+      top: 145px;
+  }
+  .bookings{
+      font-size: 20px;
+      
+      
+      
+  }
+
+
+
+
+
+
